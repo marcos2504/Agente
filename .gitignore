@@ -1,7 +1,7 @@
 # Archivos de entorno
 .env
-*.env.local
-.env.*
+.env.local
+.env.* 
 
 # Datos de n8n (volumen persistente)
 n8n_data/
