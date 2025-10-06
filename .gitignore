@@ -1,0 +1,34 @@
+# Archivos de entorno
+.env
+*.env.local
+.env.*
+
+# Datos de n8n (volumen persistente)
+n8n_data/
+
+# Archivos del sistema / temporales
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node (si usás algún módulo adicional)
+node_modules/
+
+# VSCode / configuración local
+.vscode/
+.idea/
+
+# Archivos de respaldo o temporales
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Docker
+docker-compose.override.yml
